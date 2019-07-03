@@ -1,0 +1,21 @@
+#button
+{
+    color: rgb(97, 14, 42);
+    background-color: rgb(202, 131, 185);
+    margin-left: 70%;
+    /*do zapytania*/
+    border: solid 1px rgb(97, 14, 42);
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px; 
+    /*padding - obramowanie, najpierw 2px całość a potem dodatkowo zwiększenie z rigt i left*/
+}
+fieldset
+{
+    width: 120px;
+}
+h2
+{
+    text-align: center;  
+}
+

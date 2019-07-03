@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>formularz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <fieldset>
+        <!-- fieldset - ramka wokol tekstu-->
+  <h2>FORMULARZ</h2>
+  <form action="mailto:olacencora@gmail.com?subject=ANKIETA" method="post" enctype="text/plain" accept-charset="utf-8">
+    <!-- formularz, okreslona akcja wyslanie maila na adres ... o tytule ... / encription tape - rodzaj wpisywanych tresci / accept-charset - kodowanie-->
+    IMIĘ <input type="text" name="imie" value="wpisz swoje imię" />
+    <!--input-wejście / dane wpisane przez uzytkownika będa katalogowane pod nazwą "imie"-->
+    <br/>
+    NAZWISKO <input type="text" name="nazwisko" value="wpisz swoje nazwisko"/>
+    <br/><br/>
+      <input id="button" type="submit" value="wyślij" />
+  </form>
+
+</body>
+
+</html>
